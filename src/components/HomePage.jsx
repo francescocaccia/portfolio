@@ -9,9 +9,8 @@ import { Carousel } from 'react-bootstrap';
 import work1 from '../Linkedin project.png';
 import work2 from '../App&tito.png';
 import MyFooter from './MyFooter';
-import Contacts from './Contacts';
-
-
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Description from './DescriptionIt';
 
 const HomePage = () => {
 
@@ -29,9 +28,9 @@ const HomePage = () => {
                         <div className="d-flex flex-column align-items-center me-md-5">
                             <h1 className="heroTitle">Francesco Cacciapuoti</h1>
                             <h2 className="heroSubtitle fw-semibold">JUNIOR FULL STACK DEVELOPER</h2>
-                            <p className='fs-0 text-center'>"Mi sono avvicinato al mondo della programmazione per la curiosità e l’opportunità di trovare un lavoro. Sono rimasto affascinato dalla grafica, dalla tecnica e dal modo in cui la programmazione mi permette di esprimere la mia creatività in 100.000 modi tutti diversi"</p>
+                            <p className="fs-0 text-center">"La mia passione per la programmazione è nata dalla curiosità e dal desiderio di esplorare nuove opportunità lavorative e di realizzazione personale. Sono rimasto affascinato dalla grafica, dalla tecnica e dal modo in cui la programmazione mi permette di esprimere la mia creatività in 100.000 modi tutti diversi. Sto costantemente imparando e crescendo in questo campo, e sono entusiasta di vedere dove mi porterà"</p>
                             <a href="#contacts">
-                                <button className="button px-4">Contact me</button>
+                                <button className="button px-4">Contattami</button>
                             </a>
                         </div>
                         <div className="profilePic " data-aos="zoom-in">
@@ -39,40 +38,41 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+                <Description />
                 <div className="skills-section">
                     <h2>Skills</h2>
                 </div>
-
+                {/* icone */}
                 <Container className='mt-5'>
                     <div id="skills" className="skillsContainer">
                         <div className="sectionBody">
                             {/* icone */}
                             <Row className="g-5 mt-5 row-gap-5">
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faHtml5} bounce className="large-icon" style={{ color: "#e55f06" }} />
                                 </Col>
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faCss3} bounce className="large-icon" style={{ color: "#3585ed" }} />
                                 </Col>
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faJs} bounce className="large-icon" style={{ color: "#ecf005" }} />
                                 </Col>
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faReact} bounce className="large-icon" style={{ color: "#089bf7" }} />
                                 </Col>
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faBootstrap} bounce className="large-icon" style={{ color: "#9738d6" }} />
                                 </Col>
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faSass} bounce className="large-icon" style={{ color: "#f226e1" }} />
                                 </Col>
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faJava} bounce className="large-icon" style={{ color: "#e60a2b" }} />
                                 </Col>
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faGitAlt} bounce className="large-icon" style={{ color: "#ec9027" }} />
                                 </Col>
-                                <Col>
+                                <Col xs={6} sm={4} md={3} lg={2}>
                                     <FontAwesomeIcon icon={faStackOverflow} bounce className="large-icon" style={{ color: "#e9994e" }} />
                                 </Col>
                             </Row>
@@ -89,12 +89,11 @@ const HomePage = () => {
                         </a>
                     </Col>
                 </Row>
-
                 <div className="portfolio-section">
                     <h2>Portfolio</h2>
                     {/* ... */}
                 </div>
-                <h5 className='text-center mt-5'>I miei progetti durante il corso di epicode</h5>
+                <h5 className='text-center titleProject mt-5'>I miei progetti durante il corso di epicode</h5>
                 <Carousel className='mt-5'>
                     <Carousel.Item>
                         <img
@@ -126,8 +125,30 @@ const HomePage = () => {
                     </Carousel.Item>
                 </Carousel>
             </div >
-            <Contacts />
+
+            <div id="contacts" className="contatti-section">
+                <h2>Contatti</h2>
+            </div>
+            <div className="container mb-5 mt-5">
+                <div className="row">
+                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <button className="btnText button me-2">
+                            <FontAwesomeIcon icon={faPhone} beatFade size='xl' style={{ color: "#21e114" }} />
+                            <span>+39 3207010150</span>
+                        </button>
+                    </div>
+                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <a href="mailto:cacciapuotifrancesco3@gmail.com" rel="noopener noreferrer" target="_blank" className="mail ms-2">
+                            <button className="btnText button">
+                                <FontAwesomeIcon icon={faEnvelope} beatFade size='xl' style={{ color: "#21e114" }} />
+                                <span className="text-truncate fs-5">cacciapuotifrancesco3@gmail.com</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <MyFooter />
+
         </>
     );
 };

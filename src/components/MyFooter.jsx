@@ -8,7 +8,7 @@ const MyFooter = () => {
         <footer className="d-flex justify-content-between align-items-center p-3">
             <div className="d-flex align-items-center">
                 <img src={logoPortfolio} alt="logoPortfolio" style={{ width: '50px', height: '50px' }} />
-                <h3 className="ms-3">Francesco Cacciapuoti</h3>
+                <h5 className="ms-3">Francesco Cacciapuoti</h5>
             </div>
             <ul className="d-flex gap-5 list-unstyled me-5 ">
                 <Link to="https://github.com/francescocaccia" target="_blank">
@@ -18,7 +18,7 @@ const MyFooter = () => {
                 </Link>
                 <Link to="https://www.linkedin.com/in/francesco-cacciapuoti-45019718a/" target="_blank">
                     <li>
-                        <FontAwesomeIcon icon={faLinkedin} shake className="large-icon" size='xl' style={{ color: "#329ee2" }} />
+                    <FontAwesomeIcon icon={faLinkedin} shake className="large-icon" size='xl' style={{ color: "#2874A6" }} />
                     </li>
                 </Link>
             </ul>
