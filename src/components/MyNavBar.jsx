@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 function MyNavbar() {
     return (
-        <Navbar className="sticky-top navbar-with-shadow" bg="light" expand="lg" >
+        <Navbar className="sticky-top navbar-with-shadow" bg="light"  >
             <Navbar.Brand href="#home">Francesco Cacciapuoti</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

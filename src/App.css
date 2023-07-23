@@ -1,70 +1,201 @@
-/* sfondo principale */
-/* sfondo principale */
-/* .home-page {
-  background-image: url('sfondoPortfolio.png');
-  background-size: cover;
-  background-position: center;
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;700');
+/* navbar */
+.navbar {
+  background-color: #4CAF50;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+  font-size: 0.8rem;
+}
+
+
+/* .navbar a:hover {
+  color: #3e8e41;
 } */
 
-.intro {
-  color: #369fc9b6;
-  text-shadow: 2px 2px #000;
-}
 
-.rounded-img {
-  border-radius: 20px;
-}
-
-.fs-1 {
-    font-size: calc(1.375rem + 1.5vw);
-}
-
-
-/* immagine profilo */
-/* immagine profilo */
-.rounded-img {
-  border-radius: 20px;
-  width: 20vw; 
+/* immagine foto mia */
+.profilePic {
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-top: 20px;
   max-width: 500px;
+  border-radius: 100px;
+}
+.profilePic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
 }
 
-/* navBar */
-.navbar-with-shadow {
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
+
+.profilePic:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 10);
 }
 
-.nav-link {
-  color: #5a5a5a;
+/* titolo + junior ful stack developer */
+
+.hero {
+  font-family: 'Tektur', cursive;
+  padding-block: 4rem;
+  padding-bottom: 5rem;
+  background-color: #0F4C3A;
+  width: 100%;
 }
 
-.nav-link:hover {
-  color: #000;
+.heroTitle {
+  text-align: center;
+  font-size: 3rem;
+} 
+
+
+/* bottone contattami */
+.button {
+  font-family: 'Tektur', cursive;
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #0F4C3A;
+  padding-block: 1rem;
+  max-width: 300px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
 }
 
-.dropdown-item {
-  color: #5a5a5a;
+.button:hover {
+  background-color: #28db64;
 }
 
-.dropdown-item:hover {
-  color: #000;
+
+
+
+
+/* icone */
+.large-icon {
+  font-size: 35px;
 }
 
-/* description page */
-.description {
-  color: #1607e2b6;
-  text-shadow: 2px 2px #000;
+/* TUTTE E 3 LE SECTION */
+
+/* section descrittiva 1 */
+.skills-section {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
 }
 
-.btn {
-  background-color: #5a5a5a;
+.skills-section h2 {
+  font-family: 'Tektur', cursive;
+  color: #4CAF50;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+/* PORTFOLIO section 2*/
+.portfolio-section {
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.portfolio-section h2 {
+  font-family: 'Tektur', cursive;
+  color: #4CAF50;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+/* contatti-section 3*/
+.contatti-section{  font-family: 'Tektur', cursive;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+.contatti-section h2 {
+  font-size: 2rem;
+  color: #4CAF50;
+  margin: 10px;
+}
+
+
+/* BOTTONE PER APRIRE CURRICULUM  */
+.custom-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #3e8e41;
+}
+
+/* carosello con i lavori */
+
+.carousel img {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+
+/* mascherina */
+.carousel-caption {
+  font-family: 'Tektur', cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
   color: #fff;
 }
 
-.btn:hover {
-  background-color: #000;
+/* Freccette laterali carosello */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
 }
 
 
-#iconeSkills{
-  width: 100px; 
+/* bottoni nel carosello per github */
+.carousel .btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
 }
+
+.carousel .btn:hover {
+  background-color: #3e8e41;
+}
+
+
+
+/* footer */
+footer {
+  font-family: 'Tektur', cursive;
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 1);
+}
+
+footer a {
+  color: white;
+}
+
+
