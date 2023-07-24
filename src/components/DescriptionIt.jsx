@@ -5,7 +5,7 @@ const Description = () => {
 
         <div className="description-container">
         <h2 className="description-title">Su di me</h2>
-        <p className="description-text text-center">Ciao, mi chiamo Francesco e sono un giovane sviluppatore Full Stack.
+        <p className="description-text text-center">Ciao, mi chiamo Francesco e sono uno sviluppatore Full Stack.
             Ho recentemente completato un master di 6 mesi in cui ho acquisito competenze in diverse tecnologie, partendo dalle basi di HTML, CSS e JavaScript,
             passando per Bootstrap e Sass, fino ad arrivare a React, Redux e React Router. Durante il mio percorso formativo,
             ho avuto l’opportunità di mettere in pratica e approfondire le mie competenze attraverso esercizi teorici e pratici giornalieri,

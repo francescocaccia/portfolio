@@ -5,7 +5,7 @@ const DescriptionEn = () => {
         <div className="description-container">
             <h2 className="description-title">About me</h2>
             <p className="description-text text-center">
-                Hi, my name is Francesco and I am a young Full Stack developer. I
+                Hi, my name is Francesco and I am a Full Stack developer. I
                 recently completed a 6-month master's program where I gained skills in
                 various technologies, starting from the basics of HTML, CSS and
                 JavaScript, going through Bootstrap and Sass, up to React, Redux and

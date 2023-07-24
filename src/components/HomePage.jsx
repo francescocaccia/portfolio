@@ -48,31 +48,31 @@ const HomePage = () => {
                         <div className="sectionBody">
                             {/* icone */}
                             <Row className="g-5 mt-5 row-gap-5">
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faHtml5} bounce className="large-icon" style={{ color: "#e55f06" }} />
                                 </Col>
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faCss3} bounce className="large-icon" style={{ color: "#3585ed" }} />
                                 </Col>
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faJs} bounce className="large-icon" style={{ color: "#ecf005" }} />
                                 </Col>
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faReact} bounce className="large-icon" style={{ color: "#089bf7" }} />
                                 </Col>
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faBootstrap} bounce className="large-icon" style={{ color: "#9738d6" }} />
                                 </Col>
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faSass} bounce className="large-icon" style={{ color: "#f226e1" }} />
                                 </Col>
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faJava} bounce className="large-icon" style={{ color: "#e60a2b" }} />
                                 </Col>
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faGitAlt} bounce className="large-icon" style={{ color: "#ec9027" }} />
                                 </Col>
-                                <Col xs={6} sm={4} md={3} lg={2}>
+                                <Col>
                                     <FontAwesomeIcon icon={faStackOverflow} bounce className="large-icon" style={{ color: "#e9994e" }} />
                                 </Col>
                             </Row>
