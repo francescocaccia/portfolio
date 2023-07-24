@@ -15,7 +15,9 @@ function MyNavbar() {
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
-            <img className='me-2' src={logoPortfolio} alt="logoPortfolio" style={{ width: '50px', height: '50px' }} />
+            <div style={{ width: '50px', height: '50px' }} >
+            <img className='img-fluid ' src={logoPortfolio} alt="logoPortfolio" style={{objectFit:"cover"}}/>
+            </div>
         </Navbar>
     );
 }

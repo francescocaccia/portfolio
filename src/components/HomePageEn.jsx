@@ -20,26 +20,22 @@ const HomePageEn = () => {
     return (
         <>
             <div id="home" className="homeContainer">
-                <div className="hero d-flex justify-content-center align-items-center p-5">
+                <div className="hero d-flex justify-content-center align-items-center p-5 gap-5">
                     <div className="d-flex flex-column flex-md-row align-items-center ">
-                        <div className="d-flex flex-column align-items-center me-md-5">
-                            <h1 className="heroTitle">Francesco Cacciapuoti</h1>
-                            <h2 className="heroSubtitle fw-semibold">JUNIOR FULL STACK DEVELOPER</h2>
-                            <p className="fs-0 text-center">
+                        <div className="d-flex flex-column text-md-end text-center me-md-5">
+                            <h1 className="heroTitle text-md-end text-center">Francesco Cacciapuoti</h1>
+                            <h2 className="heroSubtitle fw-semibold text-md-end text-center text-light mb-4">FULL STACK DEVELOPER</h2>
+                            <p className="text fs-0 text-md-end text-center">
                                 "My passion for programming was born out of curiosity and the desire to explore new job opportunities and personal fulfillment. I was fascinated by the graphics, the technique, and the way programming allows me to express my creativity in 100,000 different ways. I am constantly learning and growing in this field, and I am excited to see where it will take me."
                             </p>
                             <a href="#contacts">
-                                <button className="button px-4">Contact me</button>
+                                <button className="button px-4 text-end mt-5">Contattami</button>
                             </a>
                         </div>
-                        <div className="profilePic " data-aos="zoom-in">
-                            <img src={fotoMia} alt="Profile pic" />
-                        </div>
+                        <img className="profilePic " src={fotoMia} alt="profilePic" />
                     </div>
                 </div>
-
-<DescriptionEn/>
-
+                <DescriptionEn />
                 <div className="skills-section">
                     <h2>Skills</h2>
                 </div>
@@ -187,18 +183,20 @@ const HomePageEn = () => {
             <div id="contacts" className="contatti-section">
                 <h2>Contacts</h2>
             </div>
-            <div className="d-flex justify-content-center mb-5 mt-5">
-                <div className="d-flex">
-                    <button className="btnText button me-2">
-                        <FontAwesomeIcon icon={faPhone} beatFade size='xl' style={{ color: "#21e114" }} />
-                        <span>+39 3207010150</span>
-                    </button>
-                    <a href="mailto:cacciapuotifrancesco3@gmail.com" rel="noopener noreferrer" target="_blank" className="mail ms-2">
-                        <button className="btnText button">
-                            <FontAwesomeIcon icon={faEnvelope} beatFade size='xl' style={{ color: "#21e114" }} />
-                            <span className="text-truncate fs-5">cacciapuotifrancesco3@gmail.com</span>
+            <div className="container mb-5 mt-5">
+                <div className="row mx-0">
+                    <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
+                        <button className="button px-3">
+                            <FontAwesomeIcon icon={faPhone} beatFade size='xl' style={{ color: "#ffffff" }} />
+                            <span>+39 3207010150</span>
                         </button>
-                    </a>
+                    </div>
+                    <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
+                        <a href="mailto:cacciapuotifrancesco3@gmail.com"
+                            rel="noopener noreferrer" target="_blank" className="bottoneMail button  text-decoration-none px-3">
+                            <p className='m-0 text-truncate'><FontAwesomeIcon icon={faEnvelope} beatFade size='xl' style={{ color: "#ffff" }} /> cacciapuotifrancesco3@gmail.com</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             <MyFooter />

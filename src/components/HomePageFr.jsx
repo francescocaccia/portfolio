@@ -19,14 +19,14 @@ const HomePageFr = () => {
     return (
         <>
             <div id="home" className="homeContainer">
-                <div className="hero d-flex justify-content-center align-items-center p-5">
+                <div className="hero d-flex justify-content-center align-items-center p-5 gap-5">
                     <div className="d-flex flex-column flex-md-row align-items-center ">
-                        <div className="d-flex flex-column align-items-center me-md-5">
-                            <h1 className="heroTitle">Francesco Cacciapuoti</h1>
-                            <h2 className="heroSubtitle fw-semibold">
-                                DÉVELOPPEUR FULL STACK JUNIOR
+                        <div className="d-flex flex-column text-md-end text-center me-md-5">
+                            <h1 className="heroTitle text-md-end text-center">Francesco Cacciapuoti</h1>
+                            <h2 className="heroSubtitle fw-semibold text-md-end text-center text-light mb-4">
+                                FULL STACK DÉVELOPPEUR
                             </h2>
-                            <p className="fs-0 text-center">
+                            <p className="text fs-0 text-md-end text-center">
                                 "Ma passion pour la programmation est née de la curiosité et du
                                 désir d'explorer de nouvelles opportunités professionnelles et
                                 de réalisation personnelle. J'ai été fasciné par les graphismes,
@@ -36,17 +36,13 @@ const HomePageFr = () => {
                                 voir où cela me mènera."
                             </p>
                             <a href="#contacts">
-                                <button className="button px-4">Contactez-moi</button>
+                                <button className="button px-4 text-end mt-5">Contattami</button>
                             </a>
                         </div>
-                        <div className="profilePic " data-aos="zoom-in">
-                            <img src={fotoMia} alt="Profile pic" />
-                        </div>
+                        <img className="profilePic " src={fotoMia} alt="profilePic" />
                     </div>
                 </div>
-
-<DescriptionFr/>
-
+                <DescriptionFr />
                 <div className="skills-section">
                     <h2>Compétences</h2>
                 </div>
@@ -196,35 +192,20 @@ const HomePageFr = () => {
                 <div id="contacts" className="contatti-section">
                     <h2>Contacts</h2>
                 </div>
-                <div className="d-flex justify-content-center mb-5 mt-5">
-                    <div className="d-flex">
-                        <button className="btnText button me-2">
-                            <FontAwesomeIcon
-                                icon={faPhone}
-                                beatFade
-                                size="xl"
-                                style={{ color: "#21e114" }}
-                            />
-                            <span>+33 (0)6 71 40 17 50</span>
-                        </button>
-                        <a
-                            href="mailto:cacciapuotifrancesco3@gmail.com"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            className="mail ms-2"
-                        >
-                            <button className="btnText button">
-                                <FontAwesomeIcon
-                                    icon={faEnvelope}
-                                    beatFade
-                                    size="xl"
-                                    style={{ color: "#21e114" }}
-                                />
-                                <span className="text-truncate fs-5">
-                                    cacciapuotifrancesco3@gmail.com
-                                </span>
+                <div className="container mb-5 mt-5">
+                    <div className="row mx-0">
+                        <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
+                            <button className="button px-3">
+                                <FontAwesomeIcon icon={faPhone} beatFade size='xl' style={{ color: "#ffffff" }} />
+                                <span>+39 3207010150</span>
                             </button>
-                        </a>
+                        </div>
+                        <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
+                            <a href="mailto:cacciapuotifrancesco3@gmail.com"
+                                rel="noopener noreferrer" target="_blank" className="bottoneMail button  text-decoration-none px-3">
+                                <p className='m-0 text-truncate'><FontAwesomeIcon icon={faEnvelope} beatFade size='xl' style={{ color: "#ffff" }} /> cacciapuotifrancesco3@gmail.com</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

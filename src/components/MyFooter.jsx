@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MyFooter = () => {
     return (
-        <footer className="d-flex justify-content-between align-items-center p-3">
+        <footer className="d-flex flex-column flex-md-row justify-content-between align-items-center p-3">
             <div className="d-flex align-items-center">
                 <img src={logoPortfolio} alt="logoPortfolio" style={{ width: '50px', height: '50px' }} />
                 <h5 className="ms-3">Francesco Cacciapuoti</h5>
