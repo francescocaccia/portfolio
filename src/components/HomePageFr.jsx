@@ -146,7 +146,7 @@ const HomePageFr = () => {
                 </h5>
                 <Carousel className="mt-5">
                     <Carousel.Item>
-                        <img className="d-block w-100" src={work1} alt="Work 1" />
+                        <img className="d-block w-100" src={work1} alt="Work 1" style={{ height: "500px" }} />
                         <Carousel.Caption>
                             <h3>Linkedin</h3>
                             <p>
@@ -169,7 +169,7 @@ const HomePageFr = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={work2} alt="Work 2" />
+                        <img className="d-block w-100" src={work2} alt="Work 2" style={{ height: "500px" }} />
                         <Carousel.Caption>
                             <h3>App&tito</h3>
                             <p>L'application pour trouver les meilleurs restaurants en Italie</p>
