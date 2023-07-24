@@ -4,7 +4,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import AOS from 'aos';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3, faJs, faReact, faBootstrap, faSass, faJava, faGitAlt, faStackOverflow, faGithub } from '@fortawesome/free-brands-svg-icons';
-import CurriculumIT from "../Cacciapuoti Francesco IT-1.png"
+import CurriculumIT from "../Cacciapuoti Francesco IT-1.pdf"
 import { Carousel } from 'react-bootstrap';
 import work1 from '../Linkedin project.png';
 import work2 from '../App&tito.png';
@@ -80,7 +80,7 @@ const HomePage = () => {
                 <Row className='mt-5'>
                     <Col className='mt-5 mb-5 text-center'>
                         <a href={CurriculumIT} target="_blank" rel="noreferrer">
-                            <Button className="custom-button me-3">CURRICULUM VITAE</Button>
+                            <Button className="custom-button">CURRICULUM VITAE</Button>
                         </a>
                         <a href={CurriculumIT} target="_blank" rel="noreferrer">
                             <Button className="custom-button">TEST ATTITUDINALE</Button>
