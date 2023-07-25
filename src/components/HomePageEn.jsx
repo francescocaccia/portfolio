@@ -8,6 +8,7 @@ import CurriculumIT from "../Cacciapuoti Francesco IT-1.pdf"
 import { Carousel } from 'react-bootstrap';
 import work1 from '../Linkedin project.png';
 import work2 from '../App&tito.png';
+import work3 from '../meteoApp.png';
 import MyFooter from './MyFooter';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import DescriptionEn from './DescriptionEn';
@@ -179,6 +180,21 @@ const HomePageEn = () => {
                         </Button>
                     </Carousel.Caption>
                 </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        style={{ height: "500px" }}
+                        src={work3}
+                        alt="Work 3"
+                    />
+                    <Carousel.Caption>
+                        <h3>Francesco's Weather</h3>
+                        <p>The app to check the weather forecast</p>
+                        <Button href="https://github.com/francescocaccia/u3-d10-compito" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon icon={faGithub} flip size='xl' style={{ color: "#000000" }} /> View on GitHub
+                        </Button>
+                    </Carousel.Caption>
+                </Carousel.Item>
             </Carousel>
             <div id="contacts" className="contatti-section">
                 <h2>Contacts</h2>
@@ -186,9 +202,9 @@ const HomePageEn = () => {
             <div className="container mb-5 mt-5">
                 <div className="row mx-0">
                     <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
-                        <button className="button px-3">
+                        <button className="btnText button" onClick={() => window.open("https://wa.me/393207010150")}>
                             <FontAwesomeIcon icon={faPhone} size='xl' style={{ color: "#ffffff" }} />
-                            <span>+39 3207010150</span>
+                            <span>+39 320 70 10 150</span>
                         </button>
                     </div>
                     <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
