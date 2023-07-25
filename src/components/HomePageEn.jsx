@@ -29,7 +29,7 @@ const HomePageEn = () => {
                                 "My passion for programming was born out of curiosity and the desire to explore new job opportunities and personal fulfillment. I was fascinated by the graphics, the technique, and the way programming allows me to express my creativity in 100,000 different ways. I am constantly learning and growing in this field, and I am excited to see where it will take me."
                             </p>
                             <a href="#contacts">
-                                <button className="button px-4 text-end mt-5">Contattami</button>
+                                <button className="button px-4 text-end mt-5">Contact me</button>
                             </a>
                         </div>
                         <img className="profilePic " src={fotoMia} alt="profilePic" />
@@ -187,14 +187,14 @@ const HomePageEn = () => {
                 <div className="row mx-0">
                     <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
                         <button className="button px-3">
-                            <FontAwesomeIcon icon={faPhone} beatFade size='xl' style={{ color: "#ffffff" }} />
+                            <FontAwesomeIcon icon={faPhone} size='xl' style={{ color: "#ffffff" }} />
                             <span>+39 3207010150</span>
                         </button>
                     </div>
                     <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
                         <a href="mailto:cacciapuotifrancesco3@gmail.com"
                             rel="noopener noreferrer" target="_blank" className="bottoneMail button  text-decoration-none px-3">
-                            <p className='m-0 text-truncate'><FontAwesomeIcon icon={faEnvelope} beatFade size='xl' style={{ color: "#ffff" }} /> cacciapuotifrancesco3@gmail.com</p>
+                            <p className='m-0 text-truncate'><FontAwesomeIcon icon={faEnvelope} size='xl' style={{ color: "#ffff" }} /> cacciapuotifrancesco3@gmail.com</p>
                         </a>
                     </div>
                 </div>

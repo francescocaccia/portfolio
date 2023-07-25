@@ -36,7 +36,7 @@ const HomePageFr = () => {
                                 voir où cela me mènera."
                             </p>
                             <a href="#contacts">
-                                <button className="button px-4 text-end mt-5">Contattami</button>
+                                <button className="button px-4 text-end mt-5">Contactez-moi</button>
                             </a>
                         </div>
                         <img className="profilePic " src={fotoMia} alt="profilePic" />
@@ -196,14 +196,14 @@ const HomePageFr = () => {
                     <div className="row mx-0">
                         <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
                             <button className="button px-3">
-                                <FontAwesomeIcon icon={faPhone} beatFade size='xl' style={{ color: "#ffffff" }} />
+                                <FontAwesomeIcon icon={faPhone} size='xl' style={{ color: "#ffffff" }} />
                                 <span>+39 3207010150</span>
                             </button>
                         </div>
                         <div className="col-12 col-md-6 mx-0 d-flex justify-content-center align-items-center">
                             <a href="mailto:cacciapuotifrancesco3@gmail.com"
                                 rel="noopener noreferrer" target="_blank" className="bottoneMail button  text-decoration-none px-3">
-                                <p className='m-0 text-truncate'><FontAwesomeIcon icon={faEnvelope} beatFade size='xl' style={{ color: "#ffff" }} /> cacciapuotifrancesco3@gmail.com</p>
+                                <p className='m-0 text-truncate'><FontAwesomeIcon icon={faEnvelope} size='xl' style={{ color: "#ffff" }} /> cacciapuotifrancesco3@gmail.com</p>
                             </a>
                         </div>
                     </div>

@@ -13,12 +13,12 @@ const MyFooter = () => {
             <ul className="d-flex gap-5 list-unstyled me-5 ">
                 <Link to="https://github.com/francescocaccia" target="_blank">
                     <li>
-                        <FontAwesomeIcon icon={faGithub} shake className="large-icon" size='xl' style={{ color: "#000000" }} />
+                        <FontAwesomeIcon icon={faGithub} className="large-icon" size='xl' style={{ color: "#000000" }} />
                     </li>
                 </Link>
                 <Link to="https://www.linkedin.com/in/francesco-cacciapuoti-45019718a/" target="_blank">
                     <li>
-                    <FontAwesomeIcon icon={faLinkedin} shake className="large-icon" size='xl' style={{ color: "#2874A6" }} />
+                        <FontAwesomeIcon icon={faLinkedin} className="large-icon" size='xl' style={{ color: "#2874A6" }} />
                     </li>
                 </Link>
             </ul>
