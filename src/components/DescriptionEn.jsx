@@ -3,8 +3,8 @@ const DescriptionEn = () => {
 
     return (
         <div className="description-container">
-            <h2 className="description-title">About me</h2>
-            <p className="description-text text-center">
+            <h2 className="description-title aboutMe">About me</h2>
+            <p className="description-text text-center aboutMeP fs-4">
                 Hi, my name is Francesco and I am a Full Stack developer. I
                 recently completed a 6-month master's program where I gained skills in
                 various technologies, starting from the basics of HTML, CSS and

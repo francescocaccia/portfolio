@@ -27,7 +27,7 @@ const HomePageFr = () => {
                             <h2 className="heroSubtitle fw-semibold text-md-end text-center text-light mb-4">
                                 FULL STACK DÉVELOPPEUR
                             </h2>
-                            <p className="text fs-0 text-md-end text-center">
+                            <p className="text text-md-end text-center text-light fs-4 fw-bold">
                                 "Ma passion pour la programmation est née de la curiosité et du
                                 désir d'explorer de nouvelles opportunités professionnelles et
                                 de réalisation personnelle. J'ai été fasciné par les graphismes,

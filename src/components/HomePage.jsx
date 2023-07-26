@@ -29,7 +29,7 @@ const HomePage = () => {
                         <div className="d-flex flex-column text-md-end text-center me-md-5">
                             <h1 className="heroTitle text-md-end text-center">Francesco Cacciapuoti</h1>
                             <h2 className="heroSubtitle fw-semibold text-md-end text-center text-light mb-4">FULL STACK DEVELOPER</h2>
-                            <p className="text fs-0 text-md-end text-center">"La mia passione per la programmazione è nata dalla curiosità e dal desiderio di esplorare nuove opportunità lavorative e di realizzazione personale. Sono rimasto affascinato dalla grafica, dalla tecnica e dal modo in cui la programmazione mi permette di esprimere la mia creatività in 100.000 modi tutti diversi. Sto costantemente imparando e crescendo in questo campo, e sono entusiasta di vedere dove mi porterà"</p>
+                            <p className="text text-md-end text-center text-light fs-4 fw-bold">"La mia passione per la programmazione è nata dalla curiosità e dal desiderio di esplorare nuove opportunità lavorative e di realizzazione personale. Sono rimasto affascinato dalla grafica, dalla tecnica e dal modo in cui la programmazione mi permette di esprimere la mia creatività in 100.000 modi tutti diversi. Sto costantemente imparando e crescendo in questo campo, e sono entusiasta di vedere dove mi porterà"</p>
                             <a href="#contacts">
                                 <button className="button px-4 text-end mt-5">Contattami</button>
                             </a>

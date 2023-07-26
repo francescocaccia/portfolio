@@ -46,6 +46,7 @@
 /* paragrafo descrizione */
 .text {
   max-width: 600px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 /* bottone contattami */
@@ -59,6 +60,7 @@
   padding-block: 1rem;
   border-radius: 15px;
   transition: background-color 0.3s ease;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .button:hover {
@@ -75,9 +77,26 @@
   font-size: 80px;
 }
 
-/* TUTTE E 3 LE SECTION */
+/* TUTTE E 4 LE SECTION */
 
-/* section descrittiva 1 */
+
+/* about me section 1*/
+.aboutMe {
+  font-family: 'Tektur', cursive;
+  color: #4CAF50;
+  font-size: 2rem;
+  margin: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.aboutMeP {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* section descrittiva 2 */
 .skills-section {
   margin-top: 3rem;
   background-color: #f1f1f1;
@@ -90,9 +109,10 @@
   color: #4CAF50;
   font-size: 2rem;
   margin: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-/* PORTFOLIO section 2*/
+/* PORTFOLIO section 3*/
 .portfolio-section {
   width: 100%;
   background-color: #f1f1f1;
@@ -106,9 +126,10 @@
   color: #4CAF50;
   font-size: 2rem;
   margin: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-/* contatti-section 3*/
+/* contatti-section 4*/
 .contatti-section {
   font-family: 'Tektur', cursive;
   width: 100%;
@@ -122,6 +143,7 @@
   font-size: 2rem;
   color: #4CAF50;
   margin: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 
@@ -137,6 +159,7 @@
   font-size: 1.2rem;
   margin: 4px 2px;
   cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .custom-button:hover {
@@ -181,6 +204,7 @@
   font-size: 1rem;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease-in-out;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .carousel .btn:hover {
@@ -198,7 +222,7 @@
 /* botteone email */
 .bottoneMail {
   min-width: 300px;
-
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 
@@ -211,6 +235,7 @@ footer {
   background-color: #4CAF50;
   color: white;
   box-shadow: 0px -2px 5px rgba(0, 0, 0, 1);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
 footer a {

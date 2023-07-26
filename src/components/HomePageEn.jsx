@@ -26,7 +26,7 @@ const HomePageEn = () => {
                         <div className="d-flex flex-column text-md-end text-center me-md-5">
                             <h1 className="heroTitle text-md-end text-center">Francesco Cacciapuoti</h1>
                             <h2 className="heroSubtitle fw-semibold text-md-end text-center text-light mb-4">FULL STACK DEVELOPER</h2>
-                            <p className="text fs-0 text-md-end text-center">
+                            <p className="text text-md-end text-center text-light fs-4 fw-bold">
                                 "My passion for programming was born out of curiosity and the desire to explore new job opportunities and personal fulfillment. I was fascinated by the graphics, the technique, and the way programming allows me to express my creativity in 100,000 different ways. I am constantly learning and growing in this field, and I am excited to see where it will take me."
                             </p>
                             <a href="#contacts">

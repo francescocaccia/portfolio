@@ -3,8 +3,8 @@
 const DescriptionFr = () => {
     return (
         <div className="description-container">
-        <h2 className="description-title">À propos de moi</h2>
-        <p className="description-text text-center">
+            <h2 className="description-title aboutMe">À propos de moi</h2>
+            <p className="description-text text-center aboutMeP fs-4">
                 Bonjour, je m'appelle Francesco et je suis un développeur Full
                 Stack. J'ai récemment terminé un master de 6 mois où j'ai acquis des
                 compétences dans diverses technologies, en commençant par les bases de
