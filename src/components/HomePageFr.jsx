@@ -24,6 +24,7 @@ import work4 from "../musiXplosion.png";
 import MyFooter from "./MyFooter";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import DescriptionFr from "./DescriptionFr";
+import TestAttitudine from "../talentoday-francesco-cacciapuoti.pdf";
 const HomePageFr = () => {
   useEffect(() => {
     AOS.init();
@@ -149,7 +150,7 @@ const HomePageFr = () => {
             <a href={CurriculumFR} target="_blank" rel="noreferrer">
               <Button className="custom-button">CURRICULUM VITAE</Button>
             </a>
-            <a href={CurriculumFR} target="_blank" rel="noreferrer">
+            <a href={TestAttitudine} target="_blank" rel="noreferrer">
               <Button className="custom-button">TEST D'APTITUDE</Button>
             </a>
           </Col>
