@@ -250,7 +250,7 @@ const HomePage = () => {
               alt="Work 4"
             />
             <Carousel.Caption>
-              <h3>Francesco's Weather</h3>
+              <h3>musiXplosion</h3>
               <p>L'app per ascoltare le anteprime musicali</p>
               <Button
                 href="https://github.com/francescocaccia/musiXplosion"
