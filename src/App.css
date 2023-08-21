@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;700');
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;700");
 
 /* navbar */
 .navbar {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
   font-size: 0.8rem;
 }
 
-
 .navbar a:hover {
   color: #3e8e41;
 }
-
 
 /* immagine foto mia */
 .profilePic {
@@ -24,7 +22,6 @@
   border-radius: 30px;
 }
 
-
 .profilePic:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 10);
 }
@@ -32,10 +29,10 @@
 /* titolo + junior ful stack developer */
 
 .hero {
-  font-family: 'Tektur', cursive;
+  font-family: "Tektur", cursive;
   padding-block: 4rem;
   padding-bottom: 5rem;
-  background-color: #0F4C3A;
+  background-color: #0f4c3a;
   width: 100%;
 }
 
@@ -51,12 +48,12 @@
 
 /* bottone contattami */
 .button {
-  font-family: 'Tektur', cursive;
+  font-family: "Tektur", cursive;
   color: #fefefe;
   font-weight: bold;
   font-size: 1.5rem;
   border: none;
-  background-color: #0F4C3A;
+  background-color: #0f4c3a;
   padding-block: 1rem;
   border-radius: 15px;
   transition: background-color 0.3s ease;
@@ -68,10 +65,6 @@
   color: #fefefe;
 }
 
-
-
-
-
 /* icone */
 .large-icon {
   font-size: 80px;
@@ -79,11 +72,10 @@
 
 /* TUTTE E 4 LE SECTION */
 
-
 /* about me section 1*/
 .aboutMe {
-  font-family: 'Tektur', cursive;
-  color: #4CAF50;
+  font-family: "Tektur", cursive;
+  color: #4caf50;
   font-size: 2rem;
   margin: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -95,7 +87,6 @@
   text-align: center;
 }
 
-
 /* section descrittiva 2 */
 .skills-section {
   margin-top: 3rem;
@@ -105,8 +96,8 @@
 }
 
 .skills-section h2 {
-  font-family: 'Tektur', cursive;
-  color: #4CAF50;
+  font-family: "Tektur", cursive;
+  color: #4caf50;
   font-size: 2rem;
   margin: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -120,10 +111,9 @@
   text-align: center;
 }
 
-
 .portfolio-section h2 {
-  font-family: 'Tektur', cursive;
-  color: #4CAF50;
+  font-family: "Tektur", cursive;
+  color: #4caf50;
   font-size: 2rem;
   margin: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -131,7 +121,7 @@
 
 /* contatti-section 4*/
 .contatti-section {
-  font-family: 'Tektur', cursive;
+  font-family: "Tektur", cursive;
   width: 100%;
   background-color: #f1f1f1;
   padding: 10px;
@@ -141,15 +131,14 @@
 
 .contatti-section h2 {
   font-size: 2rem;
-  color: #4CAF50;
+  color: #4caf50;
   margin: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-
 /* BOTTONE PER APRIRE CURRICULUM  */
 .custom-button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 1rem;
@@ -174,10 +163,9 @@
   object-fit: cover;
 }
 
-
 /* mascherina */
 .carousel-caption {
-  font-family: 'Tektur', cursive;
+  font-family: "Tektur", cursive;
   background-color: rgba(0, 0, 0, 0.5);
   left: 0;
   right: 0;
@@ -195,10 +183,9 @@
   background-color: #333;
 }
 
-
 /* bottoni nel carosello per github */
 .carousel .btn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   font-size: 1rem;
@@ -213,11 +200,8 @@
 
 /* I miei progetti durante il corso di epicode */
 .titleProject {
-  font-family: 'Tektur', cursive;
+  font-family: "Tektur", cursive;
 }
-
-
-
 
 /* botteone email */
 .bottoneMail {
@@ -225,14 +209,10 @@
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-
-
-
-
 /* footer */
 footer {
-  font-family: 'Tektur', cursive;
-  background-color: #4CAF50;
+  font-family: "Tektur", cursive;
+  background-color: #4caf50;
   color: white;
   box-shadow: 0px -2px 5px rgba(0, 0, 0, 1);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -241,7 +221,6 @@ footer {
 footer a {
   color: white;
 }
-
 
 /* Pagina descrizione IT en fr */
 

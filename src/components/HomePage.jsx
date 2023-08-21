@@ -147,7 +147,7 @@ const HomePage = () => {
           </div>
         </Container>
         <Row className="mt-5">
-          <Col className="mt-5 mb-5 text-center">
+          <Col className="mt-5 mb-5 text-center ">
             <a href={CurriculumIT} target="_blank" rel="noreferrer">
               <Button className="custom-button">CURRICULUM VITAE</Button>
             </a>

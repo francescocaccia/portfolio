@@ -15,7 +15,7 @@ import {
   faStackOverflow,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import CurriculumIT from "../Cacciapuoti Francesco IT-1.pdf";
+import CurriculumEN from "../Cacciapuoti Francesco EN-1.pdf";
 import { Carousel } from "react-bootstrap";
 import work1 from "../Linkedin project.png";
 import work2 from "../App&tito.png";
@@ -147,7 +147,7 @@ const HomePageEn = () => {
       </Container>
       <Row className="mt-5">
         <Col className="mt-5 mb-5 text-center">
-          <a href={CurriculumIT} target="_blank" rel="noreferrer">
+          <a href={CurriculumEN} target="_blank" rel="noreferrer">
             <Button className="custom-button">CURRICULUM VITAE</Button>
           </a>
           <a href={TestAttitudine} target="_blank" rel="noreferrer">
