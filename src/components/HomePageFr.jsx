@@ -21,10 +21,12 @@ import work1 from "../Linkedin project.png";
 import work2 from "../App&tito.png";
 import work3 from "../meteoApp.png";
 import work4 from "../musiXplosion.png";
+import work5 from "../VentoCortese.png";
 import MyFooter from "./MyFooter";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import DescriptionFr from "./DescriptionFr";
 import TestAttitudine from "../talentoday-francesco-cacciapuoti.pdf";
+import certificatoEpicode from "../certificatoEpicode.png";
 const HomePageFr = () => {
   useEffect(() => {
     AOS.init();
@@ -153,6 +155,9 @@ const HomePageFr = () => {
             <a href={TestAttitudine} target="_blank" rel="noreferrer">
               <Button className="custom-button">TEST D'APTITUDE</Button>
             </a>
+            <a href={certificatoEpicode} target="_blank" rel="noreferrer">
+              <Button className="custom-button">CERTIFICAT</Button>
+            </a>
           </Col>
         </Row>
         <div className="portfolio-section">
@@ -264,7 +269,35 @@ const HomePageFr = () => {
                   size="xl"
                   style={{ color: "#000000" }}
                 />{" "}
-                View on GitHub
+                View on GitHub and try it
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              style={{ height: "500px" }}
+              src={work5}
+              alt="Work 5"
+            />
+            <Carousel.Caption>
+              <h3>VentoCortese</h3>
+              <p>
+                Mon site internet pour réserver mes vacances dans la région des
+                Marches
+              </p>
+              <Button
+                href="https://github.com/francescocaccia/VentoCortese.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  flip
+                  size="xl"
+                  style={{ color: "#000000" }}
+                />{" "}
+                View on GitHub and try it
               </Button>
             </Carousel.Caption>
           </Carousel.Item>

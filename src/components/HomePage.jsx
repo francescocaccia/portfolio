@@ -21,10 +21,12 @@ import work1 from "../Linkedin project.png";
 import work2 from "../App&tito.png";
 import work3 from "../meteoApp.png";
 import work4 from "../musiXplosion.png";
+import work5 from "../VentoCortese.png";
 import MyFooter from "./MyFooter";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Description from "./DescriptionIt";
 import TestAttitudine from "../talentoday-francesco-cacciapuoti.pdf";
+import certificatoEpicode from "../certificatoEpicode.png";
 const HomePage = () => {
   useEffect(() => {
     AOS.init();
@@ -154,6 +156,9 @@ const HomePage = () => {
             <a href={TestAttitudine} target="_blank" rel="noreferrer">
               <Button className="custom-button">TEST ATTITUDINALE</Button>
             </a>
+            <a href={certificatoEpicode} target="_blank" rel="noreferrer">
+              <Button className="custom-button">CERTIFICATO</Button>
+            </a>
           </Col>
         </Row>
         <div className="portfolio-section">
@@ -263,7 +268,32 @@ const HomePage = () => {
                   size="xl"
                   style={{ color: "#000000" }}
                 />{" "}
-                View on GitHub
+                View on GitHub and try it
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              style={{ height: "500px" }}
+              src={work5}
+              alt="Work 5"
+            />
+            <Carousel.Caption>
+              <h3>VentoCortese</h3>
+              <p>Il mio sito per prenotare una casa vacanze nelle Marche</p>
+              <Button
+                href="https://github.com/francescocaccia/VentoCortese.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  flip
+                  size="xl"
+                  style={{ color: "#000000" }}
+                />{" "}
+                View on GitHub and try it
               </Button>
             </Carousel.Caption>
           </Carousel.Item>

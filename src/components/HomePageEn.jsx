@@ -22,9 +22,11 @@ import work2 from "../App&tito.png";
 import work3 from "../meteoApp.png";
 import MyFooter from "./MyFooter";
 import work4 from "../musiXplosion.png";
+import work5 from "../VentoCortese.png";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import DescriptionEn from "./DescriptionEn";
 import TestAttitudine from "../talentoday-francesco-cacciapuoti.pdf";
+import certificatoEpicode from "../certificatoEpicode.png";
 const HomePageEn = () => {
   useEffect(() => {
     AOS.init();
@@ -153,6 +155,9 @@ const HomePageEn = () => {
           <a href={TestAttitudine} target="_blank" rel="noreferrer">
             <Button className="custom-button">APTITUDE TEST</Button>
           </a>
+          <a href={certificatoEpicode} target="_blank" rel="noreferrer">
+            <Button className="custom-button">CERTIFICATE</Button>
+          </a>
         </Col>
       </Row>
       <div className="portfolio-section">
@@ -262,7 +267,32 @@ const HomePageEn = () => {
                 size="xl"
                 style={{ color: "#000000" }}
               />{" "}
-              View on GitHub
+              View on GitHub and try it
+            </Button>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            style={{ height: "500px" }}
+            src={work5}
+            alt="Work 5"
+          />
+          <Carousel.Caption>
+            <h3>VentoCortese</h3>
+            <p>My website to book my holidays in Marche region</p>
+            <Button
+              href="https://github.com/francescocaccia/VentoCortese.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                flip
+                size="xl"
+                style={{ color: "#000000" }}
+              />{" "}
+              View on GitHub and try it
             </Button>
           </Carousel.Caption>
         </Carousel.Item>
