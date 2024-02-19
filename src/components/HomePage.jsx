@@ -15,7 +15,7 @@ import {
   faStackOverflow,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import CurriculumIT from "../Cacciapuoti Francesco IT-1.pdf";
+import CurriculumIT from "../Cacciapuoti Francesco IT.pdf";
 import { Carousel } from "react-bootstrap";
 import work1 from "../Linkedin project.png";
 import work2 from "../App&tito.png";
